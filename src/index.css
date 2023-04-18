@@ -1,0 +1,153 @@
+
+@font-face {
+    font-family: HankenGrotesk;
+    src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+body{
+    background: white;
+    font-family: HankenGrotesk;
+}
+
+.card_box{
+    margin: auto;
+    margin-top: 20%;
+    display: flex;
+    border-radius: 2rem;
+    justify-content: center;
+    box-shadow: 2px 2px 20px 4px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    
+
+}
+
+
+
+
+.card_left{
+    width: 20rem;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cl_title{
+    color: hsl(241, 100%, 89%);
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cl_circle{
+border-radius: 100%;
+background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+width:60% ;
+text-align: center;
+}
+
+.cl_number{
+color: white;
+font-size: 4rem;
+font-weight: 600;
+margin: 0;
+margin-top: 2rem;
+}
+
+.cl_total{
+margin: 0;
+margin-bottom: 2.3rem;
+color: hsl(241, 100%, 89%);
+}
+
+.cl_subtitle{
+color: white;
+font-weight: 500;
+font-size: 2rem;
+margin-bottom: 0.8rem;
+
+}
+
+.cl_p{
+margin: 0 2.5rem;
+margin-bottom: 2.5rem;
+text-align: center;
+color: hsl(241, 100%, 89%);
+}
+
+
+
+
+.card_right{
+    width: 20rem;
+    background: white;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cr_title{
+    padding-right: 50%;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.cr_element{
+display:flex;
+align-items: center;
+width: 80%;
+border-radius: 1rem;
+margin-bottom: 1rem;
+justify-content: space-between;
+padding: 0 1rem;
+}
+
+.cr_element div{
+    display: flex;
+    gap: 0.5rem
+}
+
+.cr_number{
+font-weight: 700;
+color:black;
+
+
+}
+
+.cr_total{
+color: hsl(0, 0%, 35%);
+}
+
+.cr_reaction{
+    background-color: hsla(0, 100%, 67%,0.2);
+    color: hsl(0, 100%, 67%);
+}
+.cr_memory{
+    background-color: hsla(39, 100%, 56%,0.2);
+    color:hsl(39, 100%, 56%);
+}
+.cr_verbal{
+    background-color: hsla(166, 100%, 37%,0.2);
+    color:hsl(166, 100%, 37%) ;
+}
+.cr_visual{
+    background-color: hsla(234, 85%, 45%,0.2);
+    color: hsl(234, 85%, 45%);
+}
+
+.cr_button{
+    width: 80%;
+    margin-top: 0.5rem;
+    height: 2.5rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: rgb(41, 41, 63);
+    color: white;
+    font-weight: 600;
+}
+
+.cr_button:hover{
+    cursor: pointer;
+    background:blue;
+}
